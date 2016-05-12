@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/listViewItem" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/PushExtra" android:layout_width="wrap_content" android:layout_height="64.0dip" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip">
+            <ImageView android:id="@id/PreviewImageView" android:layout_width="70.0dip" android:layout_height="52.0dip" android:src="@drawable/preview" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/PushInfo" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/PushText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/PushInfo" android:layout_toRightOf="@id/PushExtra">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/TitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="168.0dip" android:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题" android:maxLines="1" android:lineSpacingExtra="1.0dip" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff333333" android:gravity="right|center" android:id="@id/TimeTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="10月10日" android:maxLines="1" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#ff5d5d5d" android:id="@id/InfoTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="内容" android:maxLines="2" android:lineSpacingExtra="1.0dip" />
+    </LinearLayout>
+</RelativeLayout>

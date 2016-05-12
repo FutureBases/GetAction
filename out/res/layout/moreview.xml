@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/item_view1" android:background="@drawable/list_above" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/more_share" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:text="分享好友" style="@style/more_font" />
+                <ImageView android:background="@drawable/more_triangle" style="@style/more_triangle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/item_view2" android:background="@drawable/list_mid" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/more_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:text="意见反馈" style="@style/more_font" />
+                <ImageView android:background="@drawable/more_triangle" style="@style/more_triangle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/item_view3" android:background="@drawable/list_below" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/more_about" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:text="关于我们" style="@style/more_font" />
+                <ImageView android:background="@drawable/more_triangle" style="@style/more_triangle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

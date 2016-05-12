@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ff094977</color>
+    <color name="black">#ff666666</color>
+    <color name="green">#ff8bc226</color>
+    <color name="orange">#fffffcdb</color>
+    <color name="listviewline">#ffd6d5c7</color>
+    <color name="adbg">#fffaecfd</color>
+    <color name="list_bg">#ffeaeef7</color>
+    <color name="rc_black">#ff000000</color>
+    <color name="rc_white">#ffffffff</color>
+    <color name="rc_red">#ffff0000</color>
+    <color name="rc_detailblackground">#ffedfbfe</color>
+    <color name="rc_detailtitle">#ff353535</color>
+    <color name="rc_detailcontent">#ff545454</color>
+    <color name="rc_gray">#ffcccccc</color>
+    <color name="rc_itemblackground1">#ffffffff</color>
+    <color name="rc_itemblackground2">#fff3f3f3</color>
+    <color name="rc_littlegray">#fff0f0f0</color>
+    <color name="grey_black">#ff2e2e2e</color>
+    <color name="main_color">#ff097dad</color>
+    <color name="grey">#ff808080</color>
+</resources>
